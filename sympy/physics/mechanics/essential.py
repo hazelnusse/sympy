@@ -583,9 +583,9 @@ class ReferenceFrame(object):
         if self.indices[0] == ind:
             return self.x
         if self.indices[1] == ind:
-            return self.x
+            return self.y
         if self.indices[2] == ind:
-            return self.x
+            return self.z
         else:
             raise ValueError('Not a defined index')
 
